@@ -96,7 +96,6 @@ align-items: center;
 }
 .container-list{
     display: flex;
-    align-items: center;
     flex-wrap: nowrap;
     margin-left: -30px;
     margin-top: -30px;
@@ -104,7 +103,7 @@ align-items: center;
    
 }
 .features-link{
-    flex-basis: calc(100% / 4 - 30px);
+    flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
 }
