@@ -267,12 +267,14 @@ align-items: center;
     padding-top: 47px;
     padding-bottom: 94px;
                
-    background: #F5F4FA;
+    
             
     }
 .photo{
     padding-top: 94px;
     padding-bottom: 94px;
+   background: #F5F4FA;
+   
     }
            
        
