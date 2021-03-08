@@ -5,6 +5,7 @@
       --color-text-white: #FFFFFF;
       --primaru-text-color:#212121;
       --title-text-color:#757575;
+      --color-efective: #2F303A;
    }
       
       
@@ -67,6 +68,7 @@ img {
     padding-top: 32px;
     padding-bottom: 32px;
     border: 1px solid #ececec;
+    border-top: none;
 }   
 
 .header .container{
@@ -89,6 +91,7 @@ align-items: center;
 }
 .navigation-item:not(:last-child){
     margin-right: 50px;
+    
 }
 .container-features{
     padding-top: 94px;
@@ -114,6 +117,8 @@ align-items: center;
 }
 .web-navigation{
      margin-right: 93px;
+     padding-top: 32px;
+     padding-bottom: 32px;
 
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -136,7 +141,9 @@ align-items: center;
     color: var(--accent-color);
     }   
 
-.navigation-link {     
+.navigation-link {  
+    padding-top: 32px;
+    padding-bottom: 32px;   
       
     font-weight: 500;
     font-size: 14px;
@@ -151,11 +158,15 @@ align-items: center;
     .navigation-link:focus {
      color: var(--accent-color);
     }
-    
+    .tel-link:not(:last-child){
+      margin-right: 50px;
+    }
     
 .contacts-mail{
+    padding-top: 32px;
+    padding-bottom: 32px;
     margin-left: auto;
-    margin-right: 50px;
+    
         
 
     text-decoration: none;
@@ -171,8 +182,8 @@ align-items: center;
 .contacts-mail:focus{ 
     color: var(--accent-color);
     }
-.effective{   
-    background: #2F303A;
+.effective {
+   background-color: var(--color-efective); 
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -213,11 +224,7 @@ align-items: center;
      }        
     
     
-.container-btn{
-    margin-top: 30px;
-         
-     }
-        
+
          
 .Features-title{
     margin-bottom: 10px;
@@ -240,7 +247,7 @@ align-items: center;
     }           
             
 .about-title{
-    padding-top: 47px;
+    
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -254,7 +261,7 @@ align-items: center;
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
-    padding-bottom: 94px;
+   
     }
 .about-list-item{
     flex-basis: calc(100% / 3 - 30px);
@@ -298,10 +305,11 @@ align-items: center;
     flex-basis: calc(100% / 4 - 30px);  
     margin-left: 30px;
     margin-top: 30px;
+    background:  var(--color-text-white);
     }
 .photo-title-box{
-    margin-top: 30px;
-    background: #FFFFFF;
+    padding: 30px 20px; 
+    
                /* material shadow v1 */
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -311,22 +319,21 @@ align-items: center;
     }
             
 .contacts-name {
-    padding-top: 50px;
-    padding-bottom: 50px;
-            
+    padding-top: 60px;
+    padding-bottom: 60px;
+     background: var(--color-efective);
+    }
    
+       
    
-    padding-left: 15px;
-    padding-right: 15px;    
-    background: #2F303A;
-          }
+         
            
      
 .photo-title-name {
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.19;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primaru-text-color);
@@ -356,7 +363,7 @@ align-items: center;
     } 
        
 .contact-list-item:not(:last-child){ 
-    margin-bottom: 20px;
+    margin-bottom: 9px;
        }
 .contact-list-item{
     display: block;
@@ -389,21 +396,23 @@ align-items: center;
     
            
              .portfolio-link{
-                padding-top: 90px;
+                padding-top: 94px;
                 padding-bottom: 94px;
             }
-            .container-buton {
-                padding-left: 280px;
-                padding-bottom: 35px;
-            }
+           
             .list-btn{
+                margin-bottom: 50px;
                 display:flex;
-                align-items: center;
+                justify-content: center;
                 }
                 
+                
                 .list-btn-item:not(:last-child){ 
-                 margin-right: 30px;
+                   
+                 margin-right: 8px;
                  }
+                 
+                 
                   
             .button{ 
                 background: #F5F4FA;
@@ -414,6 +423,7 @@ align-items: center;
                
         
             .list-primary {
+                padding: 6px 22px;
                  font-family: inherit;
                  font-weight: 500;
                  font-size: 16px;
@@ -460,6 +470,7 @@ align-items: center;
                   
                        }   
                .list-imeges-name {
+                   margin-bottom: 4px;
                    
                   
                    font-weight: bold;
@@ -469,10 +480,7 @@ align-items: center;
                    letter-spacing: 0.06em;
                    color: var(--primaru-text-color);
                     }
-                .list-imeges-link{  
-                  width: 370px;
-                  
-                   }
+               
              
              
               .list-imeges-btn{
